@@ -1,0 +1,42 @@
+body {
+  background-color: #282c34;
+  color: white;
+}
+
+
+.container-title {
+  padding: 20px;
+  text-align: center;
+  font-size: 30px;
+}
+
+.c-blue {
+  color: #ad0ba0;
+}
+
+.c-yellow {
+  color: #FFDD35;
+}
+
+.App-vite {
+  margin-top: 30px;
+}
+
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-vite {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
